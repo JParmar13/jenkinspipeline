@@ -8,7 +8,7 @@ pipeline {
 
     tools {
         maven 'localMaven'
-
+    }
     triggers {
          pollSCM('* * * * *') 
      }
